@@ -1,0 +1,47 @@
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+.lienket{
+    margin: 0;
+    padding: 0; 
+}
+.card.yo{
+    margin: 10px;
+}
+#menu { 
+
+  position: sticky; top:0; right:0
+}
+#menu li { list-style: none; display: inline-block; margin:auto 10px}
+#menu a { font-size: 1.2em; color:white; text-decoration: none;}
+#menu a:hover { color:orange; text-decoration: none;font-size: 1.3em;} 
+
+/* Style the dropdown menu */
+.navbar-nav .dropdown-menu {
+    display: none; /* Hide the dropdown menu by default */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* Style the dropdown items */
+  .navbar-nav .dropdown-menu .dropdown-item {
+    padding: 5px 10px;
+    color: #333;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Style the dropdown items on hover */
+  .navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: orange;
+    color: white;
+  }
+
+ 

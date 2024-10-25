@@ -1,0 +1,460 @@
+{
+  "loai":[
+    { "id": 1, "ten_loai": "Tiếng Anh", "thu_tu": 1, "slug": "tieng-anh" },
+    { "id": 2, "ten_loai": "Công Nghệ Thông Tin", "thu_tu": 2, "slug": "cong-nghe-thong-tin" },
+    { "id": 3, "ten_loai": "Đại Học", "thu_tu": 3, "slug": "dai-hoc" },
+    { "id": 4, "ten_loai": "Hướng Nghiệp", "thu_tu": 4, "slug": "huong-nghiep" },
+    { "id": 5, "ten_loai": "Tuyển Sinh", "thu_tu": 5, "slug": "tuyen-sinh" }
+  ],
+  "quiz": [
+    {
+      "id": "3",
+      "id_loai": "2",
+      "name": "Quản Trị Hệ Thống - Bảo mật an ninh mạng",
+      "slug": "quan-tri-he-thong-bao-mat-an-ninh-mang",
+      "sku": "QTHS-BMANM-003",
+      "image": "images/quiz/testlist5.png",
+      "decs": "Cùng ôn thi với bộ câu trắc nghiệm Bảo mật an ninh mạng có đáp án được TRACNGHIEM.vn chọn lọc.",
+      "quiznum": "30 câu",
+      "times": "9632",
+      "ngay": "2024-10-23"
+    },
+    {
+      "id": "4",
+      "id_loai": "2",
+      "name": "Quản Trị Hệ Thống - Tin học đại cương",
+      "slug": "quan-tri-he-thong-tin-hoc-dai-cuong",
+      "sku": "QTHS-THDC-004",
+      "image": "images/quiz/testlist8.jpg",
+      "decs": "Tổng hợp 30 câu trắc nghiệm Tin học đại cương có đáp án đầy đủ.",
+      "quiznum": "30 câu",
+      "times": "7936",
+      "ngay": "2024-03-04"
+    },
+    {
+      "id": "5",
+      "id_loai": "2",
+      "name": "Quản Trị Hệ Thống - Cơ sở dữ liệu Oracle",
+      "slug": "quan-tri-he-thong-co-so-du-lieu-oracle",
+      "sku": "QTHS-CSDLOR-005",
+      "image": "images/quiz/oral.png",
+      "decs": "Tổng hợp 30 câu trắc nghiệm Cơ sở dữ liệu Oracle có đáp án đầy đủ.",
+      "quiznum": "30 câu",
+      "times": "4083",
+      "ngay": "2024-05-25"
+    },
+    {
+      "id": "6",
+      "id_loai": "2",
+      "name": "Quản Trị Hệ Thống - Hệ điều hành Windows",
+      "slug": "quan-tri-he-thong-he-dieu-hanh-windows",
+      "sku": "QTHS-HDHWD-006",
+      "image": "images/quiz/windezznuts.jpg",
+      "decs": "Tổng hợp 30 câu trắc nghiệm Hệ điều hành Windows có đáp án đầy đủ.",
+      "quiznum": "30 câu",
+      "times": "6254",
+      "ngay": "2024-07-19"
+    },
+    {
+      "id": "7",
+      "id_loai": "1",
+      "name": "Tiếng Anh - Basic Grammar",
+      "slug": "tieng-anh-basic-grammar",
+      "sku": "TA-BG-007",
+      "image": "images/quiz/english1.jpg",
+      "decs": "Bài trắc nghiệm về ngữ pháp tiếng Anh cơ bản.",
+      "quiznum": "30 câu",
+      "times": "1200",
+      "ngay": "2024-03-04"
+    },
+    {
+      "id": "8",
+      "id_loai": "1",
+      "name": "Tiếng Anh - Vocabulary Test",
+      "slug": "tieng-anh-vocabulary-test",
+      "sku": "TA-VT-008",
+      "image": "images/quiz/english2.jpg",
+      "decs": "Bài trắc nghiệm về từ vựng tiếng Anh.",
+      "quiznum": "30 câu",
+      "times": "950",
+      "ngay": "2024-07-19"
+    },
+    {
+      "id": "9",
+      "id_loai": "1",
+      "name": "Tiếng Anh - TOEIC Practice",
+      "slug": "tieng-anh-toeic-practice",
+      "sku": "TA-TOEIC-009",
+      "image": "images/quiz/english3.jpg",
+      "decs": "Bài trắc nghiệm luyện thi TOEIC.",
+      "quiznum": "30 câu",
+      "times": "480",
+      "ngay": "2024-10-23"
+    },
+    {
+      "id": "10",
+      "id_loai": "1",
+      "name": "Tiếng Anh - Listening Test",
+      "slug": "tieng-anh-listening-test",
+      "sku": "TA-LT-010",
+      "image": "images/quiz/english4.jpg",
+      "decs": "Bài trắc nghiệm kiểm tra kỹ năng nghe tiếng Anh.",
+      "quiznum": "30 câu",
+      "times": "620",
+      "ngay": "2024-05-25"
+    },
+    {
+      "id": "11",
+      "id_loai": "1",
+      "name": "Tiếng Anh - Reading Comprehension",
+      "slug": "tieng-anh-reading-comprehension",
+      "sku": "TA-RC-011",
+      "image": "images/quiz/english5.jpg",
+      "decs": "Bài trắc nghiệm về đọc hiểu tiếng Anh.",
+      "quiznum": "30 câu",
+      "times": "780",
+      "ngay": "2024-07-19"
+    },
+    {
+      "id": "12",
+      "id_loai": "1",
+      "name": "Tiếng Anh - IELTS Writing",
+      "slug": "tieng-anh-ielts-writing",
+      "sku": "TA-IELTS-012",
+      "image": "images/quiz/english6.jpg",
+      "decs": "Bài luyện tập viết IELTS.",
+      "quiznum": "30 câu",
+      "times": "900",
+      "ngay": "2024-10-23"
+    },
+    {
+      "id": "13",
+      "id_loai": "1",
+      "name": "Tiếng Anh - Synonyms and Antonyms",
+      "slug": "tieng-anh-synonyms-antonyms",
+      "sku": "TA-SA-013",
+      "image": "images/quiz/english7.jpg",
+      "decs": "Bài trắc nghiệm từ đồng nghĩa và trái nghĩa.",
+      "quiznum": "30 câu",
+      "times": "670",
+      "ngay": "2024-03-04"
+    },
+    {
+      "id": "14",
+      "id_loai": "1",
+      "name": "Tiếng Anh - Advanced Grammar",
+      "slug": "tieng-anh-advanced-grammar",
+      "sku": "TA-AG-014",
+      "image": "images/quiz/english8.jpg",
+      "decs": "Bài trắc nghiệm về ngữ pháp tiếng Anh nâng cao.",
+      "quiznum": "30 câu",
+      "times": "1120",
+      "ngay": "2024-05-25"
+    },
+    {
+      "id": "15",
+      "id_loai": "2",
+      "name": "Quản Trị Hệ Thống - Linux",
+      "slug": "quan-tri-he-thong-linux",
+      "sku": "QTHS-LINUX-015",
+      "image": "images/quiz/linux.png",
+      "decs": "Tổng hợp 30 câu trắc nghiệm về hệ điều hành Linux có đáp án.",
+      "quiznum": "30 câu",
+      "times": "5300",
+      "ngay": "2024-03-04"
+    },
+    {
+      "id": "16",
+      "id_loai": "2",
+      "name": "Quản Trị Hệ Thống - SQL Server",
+      "slug": "quan-tri-he-thong-sql-server",
+      "sku": "QTHS-SQLSV-016",
+      "image": "images/quiz/sqlserver.png",
+      "decs": "Bài trắc nghiệm tổng hợp kiến thức về SQL Server.",
+      "quiznum": "30 câu",
+      "times": "4200",
+      "ngay": "2024-05-25"
+    },
+    {
+      "id": "17",
+      "id_loai": "2",
+      "name": "Quản Trị Hệ Thống - Hệ điều hành Ubuntu",
+      "slug": "quan-tri-he-thong-ubuntu",
+      "sku": "QTHS-UBUNTU-017",
+      "image": "images/quiz/ubuntu.jpg",
+      "decs": "Bài trắc nghiệm về hệ điều hành Ubuntu.",
+      "quiznum": "30 câu",
+      "times": "5100",
+      "ngay": "2024-07-19"
+    },
+    {
+      "id": "18",
+      "id_loai": "2",
+      "name": "Quản Trị Hệ Thống - Cơ sở dữ liệu MySQL",
+      "slug": "quan-tri-he-thong-mysql",
+      "sku": "QTHS-MYSQL-018",
+      "image": "images/quiz/mysql.jpeg",
+      "decs": "Tổng hợp 30 câu trắc nghiệm về cơ sở dữ liệu MySQL có đáp án.",
+      "quiznum": "30 câu",
+      "times": "3700",
+      "ngay": "2024-10-23"
+    },
+    {
+      "id": "19",
+      "id_loai": "2",
+      "name": "Quản Trị Hệ Thống - PowerShell",
+      "slug": "quan-tri-he-thong-powershell",
+      "sku": "QTHS-PSHELL-019",
+      "image": "images/quiz/powershell.jpg",
+      "decs": "Bài trắc nghiệm về PowerShell cơ bản.",
+      "quiznum": "30 câu",
+      "times": "2100",
+      "ngay": "2024-10-23"
+    },
+    {
+      "id": "20",
+      "id_loai": "2",
+      "name": "Quản Trị Hệ Thống - An ninh mạng nâng cao",
+      "slug": "quan-tri-he-thong-an-ninh-mang-nang-cao",
+      "sku": "QTHS-ANMNC-020",
+      "image": "images/quiz/cybersec.jpg",
+      "decs": "Bài trắc nghiệm về An ninh mạng nâng cao.",
+      "quiznum": "30 câu",
+      "times": "3200",
+      "ngay": "2024-10-23"
+    },
+    {
+      "id": "21",
+      "id_loai": "2",
+      "name": "Quản Trị Hệ Thống - Quản lý máy chủ web",
+      "slug": "quan-tri-he-thong-quan-ly-may-chu-web",
+      "sku": "QTHS-QLMCW-021",
+      "image": "images/quiz/webserver.jpg",
+      "decs": "Tổng hợp các câu hỏi về quản lý máy chủ web.",
+      "quiznum": "30 câu",
+      "times": "2780",
+      "ngay": "2024-07-19"
+    },
+    {
+      "id": "22",
+      "id_loai": "2",
+      "name": "Quản Trị Hệ Thống - Ảo hóa hệ thống",
+      "slug": "quan-tri-he-thong-ao-hoa-he-thong",
+      "sku": "QTHS-AHT-022",
+      "image": "images/quiz/virtualization.jpg",
+      "decs": "Bài trắc nghiệm về ảo hóa hệ thống.",
+      "quiznum": "30 câu",
+      "times": "1900",
+      "ngay": "2024-03-04"
+    },
+    {
+      "id": "23",
+      "id_loai": "2",
+      "name": "Quản Trị Hệ Thống - Mạng máy tính",
+      "slug": "quan-tri-he-thong-mang-may-tinh",
+      "sku": "QTHS-MM-023",
+      "image": "images/quiz/computer-network.jpg",
+      "decs": "Tổng hợp các câu hỏi về mạng máy tính.",
+      "quiznum": "30 câu",
+      "times": "6050",
+      "ngay": "2024-05-25"
+    },
+    {
+      "id": "24",
+      "id_loai": "2",
+      "name": "Quản Trị Hệ Thống - Bảo trì hệ thống",
+      "slug": "quan-tri-he-thong-bao-tri-he-thong",
+      "sku": "QTHS-BTH-024",
+      "image": "images/quiz/system-maintenance.png",
+      "decs": "Bài trắc nghiệm về bảo trì hệ thống.",
+      "quiznum": "30 câu",
+      "times": "1450",
+      "ngay": "2024-07-19"
+    },
+    {
+      "id": "25",
+      "id_loai": "2",
+      "name": "Quản Trị Hệ Thống - Mạng không dây",
+      "slug": "quan-tri-he-thong-mang-khong-day",
+      "sku": "QTHS-MKD-025",
+      "image": "images/quiz/wifi-network.jpeg",
+      "decs": "Bài trắc nghiệm về mạng không dây.",
+      "quiznum": "30 câu",
+      "times": "3790",
+      "ngay": "2024-10-23"
+    },
+    {
+      "id": "26",
+      "id_loai": "2",
+      "name": "Quản Trị Hệ Thống - DevOps cơ bản",
+      "slug": "quan-tri-he-thong-devops-co-ban",
+      "sku": "QTHS-DVO-026",
+      "image": "images/quiz/devops.jpg",
+      "decs": "Bài trắc nghiệm về kiến thức cơ bản của DevOps.",
+      "quiznum": "30 câu",
+      "times": "2320",
+      "ngay": "2024-05-25"
+    },
+    {
+      "id": "27",
+      "id_loai": "1",
+      "name": "Tiếng Anh - Intermediate Grammar",
+      "slug": "tieng-anh-intermediate-grammar",
+      "sku": "TA-IG-027",
+      "image": "images/quiz/english9.jpg",
+      "decs": "Bài trắc nghiệm về ngữ pháp tiếng Anh trung cấp.",
+      "quiznum": "30 câu",
+      "times": "2800",
+      "ngay": "2024-03-04"
+    },
+    {
+      "id": "28",
+      "id_loai": "1",
+      "name": "Tiếng Anh - Pronunciation Test",
+      "slug": "tieng-anh-pronunciation-test",
+      "sku": "TA-PT-028",
+      "image": "images/quiz/english10.jpg",
+      "decs": "Bài trắc nghiệm kiểm tra kỹ năng phát âm tiếng Anh.",
+      "quiznum": "30 câu",
+      "times": "2150",
+      "ngay": "2024-07-19"
+    },
+    {
+      "id": "29",
+      "id_loai": "1",
+      "name": "Tiếng Anh - Advanced Listening",
+      "slug": "tieng-anh-advanced-listening",
+      "sku": "TA-AL-029",
+      "image": "images/quiz/english11.jpg",
+      "decs": "Bài trắc nghiệm kỹ năng nghe nâng cao.",
+      "quiznum": "30 câu",
+      "times": "2430",
+      "ngay": "2024-10-23"
+    },
+    {
+      "id": "30",
+      "id_loai": "1",
+      "name": "Tiếng Anh - TOEFL Practice",
+      "slug": "tieng-anh-toefl-practice",
+      "sku": "TA-TOEFL-030",
+      "image": "images/quiz/english12.jpg",
+      "decs": "Bài trắc nghiệm luyện thi TOEFL.",
+      "quiznum": "30 câu",
+      "times": "3700",
+      "ngay": "2024-05-25"
+    },
+    {
+      "id": "31",
+      "id_loai": "1",
+      "name": "Tiếng Anh - Business English",
+      "slug": "tieng-anh-business-english",
+      "sku": "TA-BE-031",
+      "image": "images/quiz/english13.jpg",
+      "decs": "Bài trắc nghiệm về tiếng Anh thương mại.",
+      "quiznum": "30 câu",
+      "times": "1890",
+      "ngay": "2024-07-19"
+    },
+    {
+      "id": "32",
+      "id_loai": "1",
+      "name": "Tiếng Anh - Phrasal Verbs",
+      "slug": "tieng-anh-phrasal-verbs",
+      "sku": "TA-PV-032",
+      "image": "images/quiz/english14.jpg",
+      "decs": "Bài trắc nghiệm về Phrasal Verbs.",
+      "quiznum": "30 câu",
+      "times": "2100",
+      "ngay": "2024-10-23"
+    }
+  ],
+    "tailieu": [
+    {
+      "id": 1,
+      "ten_tl": "Tài liệu tiếng Anh cơ bản",
+      "slug": "tai-lieu-tieng-anh-co-ban",
+      "hinh_tl": "images/tailieu/tailieu1.jpg",
+      "ngay": "2024-10-23"
+    },
+    {
+      "id": 2,
+      "ten_tl": "Tài liệu TOEIC",
+      "slug": "tai-lieu-toeic",
+      "hinh_tl": "images/tailieu/tailieu2.jpg",
+      "ngay": "2024-03-04"
+    },
+    {
+      "id": 3,
+      "ten_tl": "Tài liệu luyện thi IELTS",
+      "slug": "tai-lieu-ielts",
+      "hinh_tl": "images/tailieu/tailieu3.jpg",
+      "ngay": "2024-05-25"
+    },
+    {
+      "id": 4,
+      "ten_tl": "Tài liệu nâng cao ngữ pháp tiếng Anh",
+      "slug": "tai-lieu-nguphap-nangcao",
+      "hinh_tl": "images/tailieu/tailieu4.jpg",
+      "ngay": "2024-07-19"
+    },
+    {
+      "id": 5,
+      "ten_tl": "Tài liệu về từ vựng tiếng Anh",
+      "slug": "tai-lieu-tuvung",
+      "hinh_tl": "images/tailieu/tailieu5.jpg",
+      "ngay": "2024-10-23"
+    },
+    {
+      "id": 6,
+      "ten_tl": "Tài liệu lập trình cơ bản",
+      "slug": "tai-lieu-laptrinh-co-ban",
+      "hinh_tl": "images/tailieu/tailieu6.jpg",
+      "ngay": "2024-03-04"
+    },
+    {
+      "id": 7,
+      "ten_tl": "Tài liệu lập trình hướng đối tượng",
+      "slug": "tai-lieu-laptrinh-huong-doi-tuong",
+      "hinh_tl": "images/tailieu/tailieu7.jpg",
+      "ngay": "2024-05-25"
+    },
+    {
+      "id": 8,
+      "ten_tl": "Tài liệu cơ sở dữ liệu SQL",
+      "slug": "tai-lieu-csdl-sql",
+      "hinh_tl": "images/tailieu/tailieu8.jpg",
+      "ngay": "2024-07-19"
+    },
+    {
+      "id": 9,
+      "ten_tl": "Tài liệu bảo mật hệ thống",
+      "slug": "tai-lieu-bao-mat",
+      "hinh_tl": "images/tailieu/tailieu9.png",
+      "ngay": "2024-10-23"
+    },
+    {
+      "id": 10,
+      "ten_tl": "Tài liệu Windows Server",
+      "slug": "tai-lieu-windows-server",
+      "hinh_tl": "images/tailieu/tailieu10.jpg",
+      "ngay": "2024-03-04"
+    },
+    {
+      "id": 11,
+      "ten_tl": "Tài liệu quản lý hệ điều hành Linux",
+      "slug": "tai-lieu-linux",
+      "hinh_tl": "images/tailieu/tailieu11.png",
+      "ngay": "2024-05-25"
+    },
+    {
+      "id": 12,
+      "ten_tl": "Tài liệu quản lý hệ thống",
+      "slug": "tai-lieu-quan-ly-he-thong",
+      "hinh_tl": "images/tailieu/tailieu12.jpg",
+      "ngay": "2024-07-19"
+    }
+  ]
+  
+
+  
+}
